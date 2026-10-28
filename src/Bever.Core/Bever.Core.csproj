@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>The Bever compiler: parses and validates .bev sources and builds the semantic model.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Bever.Model/Bever.Model.csproj" />
+  </ItemGroup>
+</Project>

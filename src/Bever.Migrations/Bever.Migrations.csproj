@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Provider-neutral Bever schema snapshots, migration planning, and canonical hashes.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Bever.Model/Bever.Model.csproj" />
+  </ItemGroup>
+</Project>

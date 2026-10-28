@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Serve a Bever semantic model as a validated, authorized HTTP API from ASP.NET Core.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="../Bever.Model/Bever.Model.csproj" />
+    <ProjectReference Include="../Bever.Migrations/Bever.Migrations.csproj" />
+    <ProjectReference Include="../Bever.Sqlite/Bever.Sqlite.csproj" />
+  </ItemGroup>
+</Project>

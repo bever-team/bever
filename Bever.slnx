@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Bever.AspNetCore/Bever.AspNetCore.csproj" />
+    <Project Path="src/Bever.Core/Bever.Core.csproj" />
+    <Project Path="src/Bever.Migrations/Bever.Migrations.csproj" />
+    <Project Path="src/Bever.Model/Bever.Model.csproj" />
+    <Project Path="src/Bever.Sqlite/Bever.Sqlite.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Bever.AspNetCore.Tests/Bever.AspNetCore.Tests.csproj" />
+    <Project Path="tests/Bever.Core.Tests/Bever.Core.Tests.csproj" />
+    <Project Path="tests/Bever.Migrations.Tests/Bever.Migrations.Tests.csproj" />
+    <Project Path="tests/Bever.Sqlite.Tests/Bever.Sqlite.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>The Bever semantic model: the versioned JSON contract shared by the compiler, runtime, and tools.</Description>
+  </PropertyGroup>
+</Project>

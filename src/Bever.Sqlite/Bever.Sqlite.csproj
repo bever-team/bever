@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>SQLite storage for Bever applications: records, migrations, and the private identity schema.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <ProjectReference Include="../Bever.Migrations/Bever.Migrations.csproj" />
+  </ItemGroup>
+</Project>
