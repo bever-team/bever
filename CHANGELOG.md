@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0
+## 0.1.0-prealpha.1
 
-The first public release.
+The first public pre-alpha release.
 
 - Language 0.6: entities, typed fields with defaults, enums, relationships with delete behavior, validation rules (`Rule`), `Identity`, roles (`Role`), CRUD and `Pick` actions with `By` rules, `OrderBy`, `SearchBy`, `Present`, and `Export`/`Import` between files.
 - Semantic model 0.10, consumed by the runtime and `@bever/sdk`.

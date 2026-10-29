@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <Version>0.1.0</Version>
+    <Version>0.1.0-prealpha.1</Version>
     <Authors>Ali Abdullah Yılmaz</Authors>
     <Copyright>Copyright 2026 Ali Abdullah Yılmaz</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>

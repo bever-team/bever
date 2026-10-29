@@ -20,6 +20,8 @@
 
 Bever is an open-source language and framework for business applications. You describe entities, fields, relationships, and permissions in `.bev` files; Bever serves them as a validated, authorized HTTP API and a web app your team owns.
 
+> **Bever is pre-alpha.** The language and APIs will change in breaking ways between releases, and there is no upgrade path yet. Do not use it for production data. See [Status](https://bever.dev/guide/what-is-bever#status).
+
 ```bev
 Identity
     Registration Enabled
@@ -39,7 +41,7 @@ Action Update, Delete Task
 This repository contains the compiler and the .NET runtime. To build an app, install the CLI and follow [Getting started](https://bever.dev/guide/getting-started):
 
 ```sh
-dotnet tool install --global Bever.Cli
+dotnet tool install --global --prerelease Bever.Cli
 bever new "My App"
 ```
 
