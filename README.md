@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<h3 align="center">Business applications as code.</h3>
+<h3 align="center">Business logic as code.</h3>
 
 <p align="center">
   <a href="https://bever.dev/guide/getting-started">Getting started</a> ·
